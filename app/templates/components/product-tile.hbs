@@ -1,6 +1,6 @@
-{{product.title}}
-{{product.image}}
-{{product.description}}
-{{product.cost}}
+<h3>{{product.title}}</h3>
+<img src={{product.image}}>
+<h5>{{product.description}}</h5>
+<h4>{{product.cost}}</h4>
 
-<button {{action 'addToCart' product}}>Add to Cart</button>
+<button class="btn btn-primary" {{action 'addToCart' product}}>Add to Cart</button>
